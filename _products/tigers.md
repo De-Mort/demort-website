@@ -1,6 +1,6 @@
 ---
 name: Tigers
-description:
+description: Easy tiger. A bold and unique original piece by Fleur Greenfield of De Mort.
 order: '1'
 product-type: Art Print
 product-state: Current
@@ -21,7 +21,7 @@ _comments:
   name: >-
     Add a title for the product. Don't include the type, e.g. T-shirt, in the
     name (this is added automatically).
-  description: Add a meta description to help search engines index your product. 
+  description: Add a meta description to help search engines index your product.
   product-type: Select type from the list.
   price: Enter without currency sign (in format of 10.00 or 12.34).
   product-description: Enter a description of the product (can copy across from Etsy).
