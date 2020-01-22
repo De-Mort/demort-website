@@ -1,6 +1,8 @@
 ---
 name: Dinner Party
-description:
+description: >-
+  It's quite the dinner party when the tigers arrive. An original piece by Fleur
+  Greenfield.
 order: '60'
 product-type: Art Print
 product-state: Current
@@ -22,10 +24,9 @@ _comments:
   name: >-
     Add a title for the product. Don't include the type, e.g. T-shirt, in the
     name (this is added automatically).
-  description: ‡ 
+  description: Enter a description of the product (can copy across from Etsy).
   product-type: Select type from the list.
   price: Enter without currency sign (in format of 10.00 or 12.34).
-  description: Enter a description of the product (can copy across from Etsy).
   dimensions: Enter width and height for Art Prints only.
   width: Size in millimetres.
   height: Size in millimetres.
