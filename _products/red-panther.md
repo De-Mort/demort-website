@@ -1,6 +1,8 @@
 ---
 name: Red Panther
-description:
+description: >-
+  Be a panther. Or be a leopard. With this original piece by Fleur Greenfield,
+  you don't have to choose!
 order: '30'
 product-type: Art Print
 product-state: Current
@@ -22,7 +24,7 @@ _comments:
   name: >-
     Add a title for the product. Don't include the type, e.g. T-shirt, in the
     name (this is added automatically).
-  description: Add a meta description to help search engines index your product. 
+  description: Add a meta description to help search engines index your product.
   product-type: Select type from the list.
   price: Enter without currency sign (in format of 10.00 or 12.34).
   product-description: Enter a description of the product (can copy across from Etsy).
