@@ -5,7 +5,8 @@
  font-family:"Bebas Neue",sans-serif;
  text-transform:uppercase;
  letter-spacing:.125rem;
- font-weight:400
+ font-weight:400;
+ line-height: inherit;
 }
 @media (min-width:500px) {
  .hero h2 {
@@ -13,6 +14,14 @@
   letter-spacing:.175rem
  }
 }
+
+/* Hacky fix for homepage h2 wrapping */
+@media (max-width:500px) {
+  .narrow-text {
+    max-width: 210px;
+  }
+}
+
 .post-list {
  list-style-type:none;
  padding:0;

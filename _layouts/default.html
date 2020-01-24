@@ -35,11 +35,11 @@
 				</div>
 				{% include navigation.html %}
 			</div>
-{% unless page.is_product or page.is_post == "true" %} 
-			<section class="hero" {% if page.hero-image %}style="background-image: url({{ page.hero-image }}); background-postion: center; background-size: cover;"{% endif %}>
-				<div class="text-container">
-{% if layout.hero %} 
-<h2>{{ layout.hero }}</h2>
+			{% unless page.is_product or page.is_post == "true" %} 
+			<section class="hero">
+				<div class="text-container {% if page.is_home %}narrow-text{% endif %}">
+					{% if layout.hero %}
+						<h2>{{ layout.hero }}</h2>
 					{% elsif page.hero %}
 						<h2>{{ page.hero }}</h2>
 					{% elsif page.name %}
@@ -51,7 +51,7 @@
 					{% endif %}
 				</div>
 			</section>
-{% endunless %} 
+			{% endunless %} 
 		</header>
 		{{ content }}
 		<footer>
