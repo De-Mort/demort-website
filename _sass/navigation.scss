@@ -7,6 +7,7 @@
 
 			a {
 				display: block;
+				color: #fff;
 			}
 		}
 	}
@@ -49,7 +50,7 @@ nav {
 		margin: 0 3px;
 		padding: 20px 10px;
 		border-bottom: 1px solid rgba(255,255,255,0);
-		color: rgba(255,255,255,.6);
+		color: rgba(255,255,255,.9);
 		transition: 200ms ease-in color;
 		display: none;
 
@@ -68,6 +69,7 @@ nav {
 			border: 0;
 			z-index: 2;
 			padding: 20px;
+			color: #fff;
 
 			@media #{$mid-point} {
 				display: none;
@@ -124,6 +126,7 @@ nav {
 
 	a.active {
 		color: #fff;
+		font-weight: 600;
 	}
 
 }
