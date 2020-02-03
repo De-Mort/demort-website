@@ -1,6 +1,6 @@
 ---
 layout: post
-title:
+title: I've entered Sky Arts Portrait Artist of the Year competition
 date: 2020-02-03 10:00:00
 description: >-
   I've entered Sky Arts Portrait Artist of the Year competition! Fingers
