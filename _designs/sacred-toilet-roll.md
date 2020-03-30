@@ -1,6 +1,6 @@
 ---
 name: Sacred Toilet Roll
-image:
+image: /images/designs/sacred-toilet-roll.jpg
 order: '2'
 _comments:
   name: Add a title for the design.
